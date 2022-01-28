@@ -7,3 +7,5 @@ docker run -it busybox sh
 docker ps
 
 docker image ls
+
+docker create --name test alpine:latest top
