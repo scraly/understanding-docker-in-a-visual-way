@@ -1,5 +1,7 @@
 # Understanding Docker in a visual way
 
+![Understanding Docker in a visual way](understanding.png)
+
 Welcome!
 
 You can find in this repository all the commands you can see in the "Understanding Docker in a visual way video serie".
