@@ -2,8 +2,8 @@
 
 ## General
 
-Video on YouTube: https://youtu.be/3hol91BkYHU
-Article with sketchnotes: https://dev.to/aurelievache/understanding-docker-in-a-visual-way-in-video-part-1-images-4fbn 
+* Video on YouTube: https://youtu.be/3hol91BkYHU
+* Article with sketchnotes: https://dev.to/aurelievache/understanding-docker-in-a-visual-way-in-video-part-1-images-4fbn 
 
 ## Commands
 
