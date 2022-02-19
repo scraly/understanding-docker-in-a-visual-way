@@ -1,0 +1,7 @@
+{
+    "debug": true,
+    "insecure-registries": [
+        "my-registry.com:8080"
+    ],
+    "max-concurrent-uploads": 3
+}
