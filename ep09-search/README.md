@@ -3,7 +3,7 @@
 ## General
 
 * Video on YouTube: https://www.youtube.com/watch?v=AApJJm8U1cU
-* Article with sketchnotes: xxx
+* Article with sketchnotes: https://dev.to/aurelievache/understanding-docker-in-a-visual-way-in-video-part-9-search-2i8c
 
 ## Commands
 
