@@ -1,0 +1,3 @@
+FROM busybox
+ARG user
+RUN echo "user is $user"

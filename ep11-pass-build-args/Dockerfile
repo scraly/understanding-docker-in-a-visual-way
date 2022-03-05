@@ -1,0 +1,3 @@
+ARG IMG_NAME=golang
+ARG IMG_VERSION=latest
+FROM $IMG_NAME:$IMG_VERSION as build
