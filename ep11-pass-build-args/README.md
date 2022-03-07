@@ -3,7 +3,7 @@
 ## General
 
 * Video on YouTube: https://www.youtube.com/watch?v=yckBJXq-7ig
-* Article with sketchnotes: https://dev.to/aurelievache/...
+* Article with sketchnotes: https://dev.to/aurelievache/understanding-docker-in-a-visual-way-in-video-part-11-pass-build-args-30k0
 
 ## Commands
 
