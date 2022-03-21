@@ -3,7 +3,7 @@
 ## General
 
 * Video on YouTube: https://www.youtube.com/watch?v=x_ID_D96GLM
-* Article with sketchnotes: https://dev.to/aurelievache/
+* Article with sketchnotes: https://dev.to/aurelievache/understanding-docker-in-a-visual-way-in-video-part-13-run-with-privileged-mode-32pm
 
 ## Commands
 
