@@ -2,11 +2,12 @@ FROM ubuntu
 
 ## Install dependencies
 RUN apt update && \
-    apt install curl -y
+    apt install curl cowsay -y
 
-RUN curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl" && \
-    chmod +x ./kubectl && \
-    mv ./kubectl /usr/local/bin/kubectl && \
-    mkdir ~/.kube
+RUN cp /usr/games/cowsay /usr/local/bin/cowsay
 
-RUN curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh"  | bash
+#RUN curl -LO https://github.com/scraly/gophersay/releases/download/v1.0.2/gophersay_1.0.2_Darwin_x86_64.tar.gz && \
+#    tar zxvf gophersay_1.0.2_Darwin_x86_64.tar.gz && \
+#    chmod +x ./gophersay && \
+#    mv ./gophersay /usr/local/bin/gophersay && \
+#    rm gophersay_1.0.2_Darwin_x86_64.tar.gz
