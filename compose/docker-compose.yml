@@ -1,0 +1,12 @@
+services:
+  myapp-with-vol:
+    image: my-image:tag
+    volumes: 
+      - my-global-volume:/the-global-volume
+      - /my-folder:/vol-in-readonly:ro
+  my-second-app-with-vol:
+    image: alpine:latest
+    volumes:
+      - my-global-volume:/another-path/the-global-volume
+volumes:
+  my-global-volume: 
