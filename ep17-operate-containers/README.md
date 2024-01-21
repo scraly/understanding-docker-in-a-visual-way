@@ -2,8 +2,8 @@
 
 ## General
 
-* Video on YouTube: 
-* Article with sketchnotes: xxx
+* Video on YouTube: https://www.youtube.com/watch?v=uRQ7Qm_0BZ8
+* Article with sketchnotes: https://dev.to/aurelievache/understanding-docker-in-a-visual-way-in-video-part-16-stats-o51
 
 ## Commands
 
