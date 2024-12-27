@@ -3,13 +3,17 @@ group "default" {
 }
 
 target "frontend" {
-  context = "./frontend"
-  dockerfile = "frontend.Dockerfile"
+  context = "./gophers-api"
+  dockerfile = "Dockerfile"
+  #context = "./frontend"
+  #dockerfile = "frontend.Dockerfile"
   tags = ["myapp/frontend:latest"]
 }
 
 target "backend" {
-  context = "./backend"
-  dockerfile = "backend.Dockerfile"
+  context = "./gophers-api"
+  dockerfile = "Dockerfile"
+  #context = "./backend"
+  #dockerfile = "backend.Dockerfile"
   tags = ["myapp/backend:latest"]
 }

@@ -1,4 +1,6 @@
-#
+# Docker Bake
+
+As your build configuration grows more complex, Bake provides a more structured way to manage that complexity, that would be difficult to manage with CLI flags for the docker build. It also provides a way to share build configurations across your team, so that everyone is building images in a consistent way, with the same configuration.
 
 ## Pre-requisites
 
@@ -32,8 +34,15 @@ Command:
 docker buildx bake -f docker-bake-images.hcl 
 ```
 
-## Push ...
+Note: The `group` block defines a group of targets that can be built concurrently. Each `target` block defines a build target with its own configuration, such as the build context, Dockerfile, and tags.
 
+Note2: Don't defining the target will execute the default group, which builds the frontend and backend targets concurrently.
+
+## Push
+
+```bash
+docker buildx bake -f docker-bake.hcl --push
+```
 
 ## Build a multi-platform image
 
