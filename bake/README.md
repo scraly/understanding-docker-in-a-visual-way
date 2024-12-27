@@ -46,6 +46,20 @@ docker buildx bake -f docker-bake.hcl --push
 
 ## Build a multi-platform image
 
+```bash
+docker buildx bake -f docker-bake-multi-pltf.hcl 
+```
+
+Note: You need a builder for multi-arch images or turn on the containerd image store.
+
+## Build from a remote Bake file definition
+
+You can build Bake files directly from a remote Git repository or HTTPS URL:
+
+```bash
+docker buildx bake "https://github.com/scraly/gophers-api.git" --print
+```
 
 ## Test? output the coverage
 
+TODO: xxx
